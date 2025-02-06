@@ -18,11 +18,11 @@
     animation-play-state: paused;
   }
 
-  .custom-bg{
+  .custom-bg {
     @apply bg-background/20 border border-cyan-400/30 border-solid backdrop-blur-[6px] 
-    shadow-lg shadow-cyan-500/20 hover:shadow-cyan-400/40 transition-all duration-300 cursor-pointer relative pointer-events-auto
-     hover:border-cyan-300/40
-  }
+    shadow-lg shadow-cyan-500/20 hover:shadow-cyan-400/40 transition-all duration-300 cursor-pointer 
+    pointer-events-auto hover:border-cyan-300/40;
+}
 }
 
 @keyframes move {
