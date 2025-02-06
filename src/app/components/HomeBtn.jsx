@@ -7,7 +7,7 @@ const HomeBtn = () => {
         <Link
             href={"/"}
             target={'_self'}
-            className='z-10 text-foreground rounded-full flex items-center justify-center custom-bg fixed -top-14 -left-12 w-fit self-start'
+            className='z-10 text-foreground rounded-full flex items-center justify-center custom-bg fixed -top-18 -left-20 w-fit self-start'
             aria-label={"home"}
             name={"home"}
         >
