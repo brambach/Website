@@ -34,6 +34,29 @@ const AboutDetails = () => {
                         4+ <sub className='font-semibold text-base'>years of experience</sub>
                     </p>
                 </ItemLayout>
+
+                <ItemLayout className={"col-span-4 !p-0"}>
+                    <img className='w-full h-auto' src='https://github-readme-stats.vercel.app/api/top-langs/?username=brambach&theme=transparent&hide_border=true&title_color=2B999B&text_color=FFFFFF&icon_color=2B999B&text_bold=false' alt='brambach' loading='lazy' />
+                </ItemLayout>
+
+                <ItemLayout className={"col-span-8 !p-0"}>
+                    <img className='w-full h-auto' src='https://github-readme-stats.vercel.app/api?username=brambach&theme=transparent&hide_border=true&title_color=2B999B&text_color=FFFFFF&icon_color=2B999B&text_bold=false' alt='brambach' loading='lazy' />
+                </ItemLayout>
+
+                <ItemLayout className={"col-span-full"}>
+                    <img className='w-full h-auto' src='https://skillicons.dev/icons?i=apple,blender,css,discordjs,git,github,html,instagram,java,js,linkedin,nodejs,npm,pr,py,react,tailwind,vscode,windows' alt='brambach' loading='lazy' />
+                </ItemLayout>
+
+                <ItemLayout className={"col-span-6 !p-0"}>
+                    <img src="https://github-readme-streak-stats.herokuapp.com?user=brambach&theme=dark&hide_border=true&background=EB545400&ring=2B999B&currStreakLabel=2B999B" alt="brambach" loading="lazy"/>
+                </ItemLayout>
+
+                {/* <ItemLayout className={"col-span-4 !p-0"}>
+                    <img className='w-full h-auto' src='https://github-readme-stats.vercel.app/api/pin/?username=brambach&repo=github-readme-stats&theme=transparent&hide_border=true&title_color=2B999B&text_color=FFFFFF&icon_color=2B999B&text_bold=false' alt='brambach' loading='lazy' />
+                </ItemLayout> */}
+
+                
+
             </div>
         </section>
     )
